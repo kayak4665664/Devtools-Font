@@ -1,0 +1,29 @@
+.platform-linux, :host-context(.platform-linux),
+.platform-mac, :host-context(.platform-mac){
+    --monospace-font-family: "FiraCode Nerd Font" !important;
+    --source-code-font-family: "FiraCode Nerd Font" !important;
+}
+
+:host-context(.platform-linux) .monospace,
+:host-context(.platform-mac) .monospace,
+:host-context(.platform-linux) .source-code,
+:host-context(.platform-mac) .source-code,
+.platform-linux .monospace,
+.platform-mac .monospace,
+.platform-linux .source-code,
+.platform-mac .source-code {
+    --monospace-font-family: "FiraCode Nerd Font" !important;
+    --source-code-font-family: "FiraCode Nerd Font" !important;
+}
+
+.monospace,
+.source-code {
+    --monospace-font-family: "FiraCode Nerd Font" !important;
+    --source-code-font-family: "FiraCode Nerd Font" !important;
+}
+
+::shadow .monospace,
+::shadow .source-code {
+    --monospace-font-family: "FiraCode Nerd Font" !important;
+    --source-code-font-family: "FiraCode Nerd Font" !important;
+}

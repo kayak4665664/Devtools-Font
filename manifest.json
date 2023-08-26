@@ -1,0 +1,7 @@
+{
+    "name": "Devtools Font",
+    "version": "1.0.0",
+    "description": "Customize font for Chrome Devtools.",
+    "devtools_page": "devtools-font.html",
+    "manifest_version": 2
+}
